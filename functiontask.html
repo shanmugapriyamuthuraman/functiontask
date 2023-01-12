@@ -1,0 +1,48 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<script>	
+		
+		let num1=parseInt(prompt("enter first number")) 
+		let num2=parseInt(prompt("enter second number"))
+		let specialchar=prompt("enter specialchar")
+		if(specialchar=="+"){
+			var x=add()
+			console.log(x)
+		}
+		else if(specialchar=="-"){
+			var y=sub()
+			console.log(y)
+		}
+		else if(specialchar=="*"){
+			var z=mul()
+			console.log(z)
+		}
+		else if(specialchar=="/"){
+			var m=div()
+			console.log(m)
+		}
+		function add(){
+			add=num1+num2
+			return add
+		}
+		function sub(){
+			sub=num1-num2
+			return sub
+		}
+		function mul(){
+			mul=num1*num2
+			return mul
+		}
+		function div(){
+			div=num1/num2
+			return div
+		}
+		</script>
+		</body>
+		</html>
